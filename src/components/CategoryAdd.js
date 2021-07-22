@@ -11,7 +11,7 @@ export const CategoryAdd = ({ setCategories }) => {
         e.preventDefault();
         if(inputValue.trim().length > 2){
             // console.log('Submit OK!!!!');
-            setCategories(cats => [...cats, inputValue]);
+            setCategories(cats => [inputValue, ...cats]);
             setInputValue('');
         }
     }
