@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifDks /> debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    GifDKS
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+    <GifGrid
+      category="Goku"
+      key="Goku"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Pruebas en <GifDks /> debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h2>
+    GifDKS
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
